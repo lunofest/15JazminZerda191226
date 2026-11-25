@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Jazmin - Mis XV Años" />
+    <meta property="og:description"
+        content="¡La cuenta regresiva ha comenzado! Descubre los detalles y confirma tu asistencia." />
+
+    <meta property="og:image" content="https://lunofest.github.io/15JazminZerda191226/assets/imagenes/miniatura.png" />
+    <meta property="og:url" content="https://lunofest.github.io/15JazminZerda191226/" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image:type" content="image/png" />
+
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="s-maxage=3600">
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+
+    <script src="cache.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/styles.css?v7">
+    <title>Mis 15 Años</title>
+</head>
+
+<body>
+
+    <section style="display: none;" class="splash" id="splash">
+        <!-- <h1 class="splash__titulo">Belén</h1> -->
+        <!-- <p class="splash__subtitulo">Toca el sobre para ingresar</p> -->
+        <!-- <p class="splash__texto">Toca el sobre para ingresar</p> -->
+        <svg class="splash__flecha" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+            <path d="M12 4v16m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" fill="none" />
+        </svg>
+        <img class="splash__sobre" src="assets/imagenes/sobre.webp" alt="sobre">
+    </section>
+
+    <button class="musica-flotante" type="button" aria-label="Reproducir">
+        <svg class="musica-flotante__icono header__play" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z"></path>
+        </svg>
+        <svg class="musica-flotante__icono header__pausa" viewBox="0 0 24 24" fill="currentColor" hidden>
+            <rect x="6" y="5" width="4" height="14" rx="1"></rect>
+            <rect x="14" y="5" width="4" height="14" rx="1"></rect>
+        </svg>
+    </button>
+
+    <header class="header">
+        <!-- <p class="header__titulo">MIS XV AÑOS</p> -->
+
+        <img class="header__sapo" src="assets/imagenes/sapo.webp" alt="Sapo verde con corona">
+
+        <h1 class="header__nombre">Jazmin</h1>
+        <p class="header__apellidos">MIS XV AÑOS</p>
+
+         <div class="header__fecha">
+            <span class="header__dia">19</span>
+            <span class="header__mes">Diciembre</span>
+            <span class="header__anio">2026</span>
+        </div>
+
+        <p class="header__frase">ENTRE LA MAGIA DE LOS SUEÑOS Y LAS NUEVAS AVENTURAS, HOY COMIENZA UN NUEVO CAPÍTULO
+            MUY ESPECIAL EN MI VIDA. CON MUCHA ILUSIÓN Y ALEGRÍA QUIERO COMPARTIR ESTA NOCHE MÁGICA CON LAS PERSONAS
+            QUE FORMAN PARTE DE MI HISTORIA Y DE MI CORAZÓN.</p>
+
+        <audio class="header__audio" src="assets/musica.mp3" preload="auto" hidden></audio>
+
+        <img class="header__ramita" src="assets/imagenes/ramita.webp" alt="Rama dorada decorativa">
+
+        
+
+       
+
+        <div class="flecha">
+
+            <img class="header__arrow" src="assets/vectores/arrow.svg" alt="">
+            <p class="flecha__text">Desliza</p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <img src="assets/imagenes/body.webp" alt="" class="video">
+
+        <section class="frase">
+            <h5 class="frase__paragraph"> "Deseo expresar mi profundo agradecimiento a todos mis familiares y amigos que
+                me acompañan en esta etapa, y quiero destacar el valioso
+                sacrificio realizado especialmente por mis padres, cuyo apoyo fué fundamental para hacer realidad
+                este momento tan significativo en mi vida"
+            </h5>
+        </section>
+
+        <section class="padres">
+            <img class="padres__caiman" src="assets/imagenes/caiman.webp" alt="Caimán bebé">
+            <div class="padres__textos">
+                <p class="padres__titulo">MIS PADRES</p>
+                <p class="padres__nombre">Mauricio</p>
+                <p class="padres__apellidos">Zerda</p>
+                <p class="padres__union">&</p>
+                <p class="padres__nombre">Olga</p>
+                <p class="padres__apellidos">Mamani</p>
+            </div>
+        </section>
+
+        <img src="assets/imagenes/princesabb.webp" class="imagen_suelta" alt="">
+
+        <section style="display: none;" class="frase">
+            <h5 class="frase__paragraph">Los sueños se cumplen si trabajas por ellos, pero se disfruta mejor
+                celebrandolos contigo. <br> Trabajaste duro para alcanzar tu estrella y hoy finalmente el sueño se hace
+                realidad. <br> Que tu vida siempre brille con la misma magia que hoy ilumina tu camino.
+            </h5>
+        </section>
+
+        <section class="calendario">
+            <div class="calendario__cuadro">
+                <img class="calendario__sello" src="assets/imagenes/sello.webp" alt="Sello dorado">
+                <p class="calendario__titulo">RESERVA ESTE DIA</p>
+                <p class="calendario__mes">DICIEMBRE 2026</p>
+                <div class="calendario__grilla">
+                    <span class="calendario__semana">LUN</span>
+                    <span class="calendario__semana">MAR</span>
+                    <span class="calendario__semana">MIE</span>
+                    <span class="calendario__semana">JUE</span>
+                    <span class="calendario__semana">VIE</span>
+                    <span class="calendario__semana">SAB</span>
+                    <span class="calendario__semana">DOM</span>
+                    <span class="calendario__vacio"></span>
+                    <span class="calendario__dia">1</span>
+                    <span class="calendario__dia">2</span>
+                    <span class="calendario__dia">3</span>
+                    <span class="calendario__dia">4</span>
+                    <span class="calendario__dia">5</span>
+                    <span class="calendario__dia">6</span>
+                    <span class="calendario__dia">7</span>
+                    <span class="calendario__dia">8</span>
+                    <span class="calendario__dia">9</span>
+                    <span class="calendario__dia">10</span>
+                    <span class="calendario__dia">11</span>
+                    <span class="calendario__dia">12</span>
+                    <span class="calendario__dia">13</span>
+                    <span class="calendario__dia">14</span>
+                    <span class="calendario__dia">15</span>
+                    <span class="calendario__dia">16</span>
+                    <span class="calendario__dia">17</span>
+                    <span class="calendario__dia">18</span>
+                    <span class="calendario__dia calendario__destacado">19</span>
+                    <span class="calendario__dia">20</span>
+                    <span class="calendario__dia">21</span>
+                    <span class="calendario__dia">22</span>
+                    <span class="calendario__dia">23</span>
+                    <span class="calendario__dia">24</span>
+                    <span class="calendario__dia">25</span>
+                    <span class="calendario__dia">26</span>
+                    <span class="calendario__dia">27</span>
+                    <span class="calendario__dia">28</span>
+                    <span class="calendario__dia">29</span>
+                    <span class="calendario__dia">30</span>
+                    <span class="calendario__dia">31</span>
+                    <span class="calendario__vacio"></span>
+                    <span class="calendario__vacio"></span>
+                    <span class="calendario__vacio"></span>
+                </div>
+                <img class="calendario__bruja" src="assets/imagenes/bruja.webp" alt="Bruja">
+            </div>
+        </section>
+
+        <section class="temporizador">
+            <h2 class="temporizador__titulo titulo">Cuenta regresiva</h2>
+            <div class="temporizador__cuadro">
+                <p class="temporizador__frase">Falta poco para mi gran día</p>
+                <div class="temporizador__reloj">
+                    <div class="temporizador__bloque">
+                        <span class="temporizador__numero" id="dias">00</span>
+                        <span class="temporizador__etiqueta">DÍAS</span>
+                    </div>
+                    <span class="temporizador__separador">:</span>
+                    <div class="temporizador__bloque">
+                        <span class="temporizador__numero" id="horas">00</span>
+                        <span class="temporizador__etiqueta">HORAS</span>
+                    </div>
+                    <span class="temporizador__separador">:</span>
+                    <div class="temporizador__bloque">
+                        <span class="temporizador__numero" id="minutos">00</span>
+                        <span class="temporizador__etiqueta">MINUTOS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fiesta">
+            <h2 class="fiesta__titulo titulo">Fiesta</h2>
+            <p class="fiesta__texto">Te espero para celebrar juntos, el día 19 de Diciembre del 2026 a las 21:00hs en
+                salón "Bodega La Magdalena" en Monterrico, Jujuy.</p>
+            <img class="fiesta__salon" src="assets/imagenes/salon.webp" alt="Salón Bodega La Magdalena">
+            <a class="boton fiesta__boton" href="https://maps.app.goo.gl/nmfyf6GYKv457btT7" target="_blank"
+                rel="noopener">Ver ubicación</a>
+        </section>
+
+        <section class="itinerarios">
+            <h2 class="itinerarios__titulo titulo">Itinerarios</h2>
+            <h3 class="itinerario__aviso">Sábado 19 de Diciembre del 2026</h3>
+            <div class="itinerario">
+
+
+                <div class="lines">
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+
+
+                    <article class="itinerario__item item1" style="display: none;">
+                        <img class="itinerario__icon icon1" src="assets/imagenes/iconos/iconoIGLESIA.webp" alt="">
+                        <div class="text right">
+                            <h6 class="itinerario__name">Misa</h6>
+                            <h6 class="itinerario__name itinerario__name2">20:00hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item1">
+                        <img class="itinerario__icon icon1" src="assets/imagenes/iconos/iconoINVITADOS.webp" alt="">
+                        <div class="text left">
+                            <h6 class="itinerario__name">Ingreso Invitados</h6>
+                            <h6 class="itinerario__name itinerario__name2">21:00hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item2">
+                        <img class="itinerario__icon icon2" src="assets/imagenes/iconos/iconoQUINCEAÑERA.webp" alt="">
+                        <div class="text right">
+                            <h6 class="itinerario__name">Mi Ingreso</h6>
+                            <h6 class="itinerario__name itinerario__name2">21:30hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item3">
+                        <img class="itinerario__icon icon3" src="assets/imagenes/iconos/iconoCENA.webp" alt="">
+                        <div class="text left">
+                            <h6 class="itinerario__name">Cena</h6>
+                            <h6 class="itinerario__name itinerario__name2">22:00hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item4">
+                        <img class="itinerario__icon icon4" src="assets/imagenes/iconos/iconoINICIOfiesta.webp" alt="">
+                        <div class="text right">
+                            <h6 class="itinerario__name">Inicio del Baile</h6>
+                            <h6 class="itinerario__name itinerario__name2">23:00hs</h6>
+                        </div>
+                    </article>
+                    <article class="itinerario__item item5">
+                        <img class="itinerario__icon icon5" src="assets/imagenes/iconos/iconoFIN.webp" alt="">
+                        <div class="text left">
+                            <h6 class="itinerario__name">Cierre de la Fiesta</h6>
+                            <h6 class="itinerario__name itinerario__name2">05:00hs</h6>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="dresscode">
+            <h2 class="dresscode__titulo titulo">Dresscode</h2>
+            <p class="dresscode__subtitulo">Elegante Sport</p>
+            <!-- <p  class="dresscode__texto">Por favor No asistir con vestimenta en tonos Verde Olivo, Blanco y Dorado</p> -->
+            <img class="dresscode__imagen" src="assets/imagenes/dresscode.webp" alt="Código de vestimenta">
+        </section>
+
+        <section class="regalos">
+
+            <h2 class="regalos__titulo titulo">Regalos</h2>
+
+            <svg class="regalos__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 12 20 22 4 22 4 12"></polyline>
+                <rect x="2" y="7" width="20" height="5"></rect>
+                <line x1="12" y1="22" x2="12" y2="7"></line>
+                <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+                <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+            </svg>
+
+            <p class="regalos__texto">
+                "Quiero que sepas que tu presencia es lo más importante en mi fiesta y si deseas hacerme un
+                presente, podrás dejarlo en mi mesa de regalos,
+                o colocar tu sobrecito en la urna en la entrada del salón, también podés hacerlo por transferencia a mi
+                cuenta...
+                y recuerda: <br> ¡Tu cariño es el mejor regalo que puedo recibir!"
+            </p>
+
+            <button id="mostrarBoton" class="boton__cta regalos__boton" type="button" aria-expanded="false"
+                aria-controls="textoDesplegable" style="display: none;">Ver datos bancarios</button>
+            <div id="textoDesplegable" class="regalos__datos" hidden style="display: none;">
+                <div class="regalos__grupo">
+                    <h6 class="regalos__etiqueta">Alias:</h6>
+                    <p class="regalos__valor" id="alias">lucky.28.72</p>
+                    <button class="boton__cta regalos__copiar" type="button" data-copiar="alias">
+                        <svg class="boton__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span class="regalos__leyenda">Copiar Alias</span></button>
+                </div>
+                <div class="regalos__linea"></div>
+                <div class="regalos__grupo">
+                    <h6 class="regalos__etiqueta">CBU:</h6>
+                    <p class="regalos__valor" id="cbuAlias"> 0000003100010291691520</p>
+                    <button class="boton__cta regalos__copiar" type="button" data-copiar="cbuAlias">
+                        <svg class="boton__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span class="regalos__leyenda">Copiar CBU</span></button>
+                </div>
+            </div>
+            <p class="regalos__aviso" id="copyMessage" hidden>¡Copiado!</p>
+
+
+        </section>
+
+        <section class="album" style="display: none;">
+            <h2 class="album__titulo titulo">Álbum Compartido</h2>
+            <img class="album__imagen" src="assets/imagenes/album.webp" alt="Álbum de fotos">
+            <p class="album__texto">Quiero inmortalizar este maravilloso momento, guardando fotos y para ello tengo mi
+                álbum digital</p>
+            <a class="boton__cta boton__cta4" href="https://photos.app.goo.gl/h2toxmiBaw92uzpo6" target="_blank"
+                rel="noopener">
+                <svg class="boton__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+                Compartir fotos
+            </a>
+            <p class="album__texto">Ó podés compartir tus fotos y videos de la fiesta en Instagram y etiquétame</p>
+            <a class="boton__cta album__insta"
+                href="https://www.instagram.com/lucre__28/?utm_source=ig_web_button_share_sheet" target="_blank"
+                rel="noopener">
+                <svg class="boton__icono" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                @lucre__28
+            </a>
+        </section>
+
+        <section class="confirmacion">
+            <h2 class="confirmacion__titulo titulo">Confirmacion de asistencia</h2>
+            <img class="confirmacion__imagen" src="assets/imagenes/confirmacion.webp" alt="Confirmación de asistencia">
+            <p class="confirmacion__texto">Recordá que tenes hasta el día 11 de Diciembre del 2026 para confirmar tu
+                presencia</p>
+            <div class="confirmacion__opciones">
+                <label class="confirmacion__opcion">
+                    <input class="confirmacion__radio" type="radio" name="attendanceOption" value="SI ASISTIRÉ"> SI
+                    ASISTIRÉ
+                </label>
+                <label class="confirmacion__opcion">
+                    <input class="confirmacion__radio" type="radio" name="attendanceOption" value="NO ASISTIRÉ"> NO
+                    ASISTIRÉ
+                </label>
+            </div>
+            <p class="confirmacion__error" id="errorasistencia" hidden>Elegí SI ASISTIRÉ o NO ASISTIRÉ</p>
+            <div class="confirmacion__campos">
+                <label class="confirmacion__etiqueta" for="userFullName">Nombre y Apellido:</label>
+                <input class="confirmacion__entrada" type="text" id="userFullName" placeholder="Tu nombre y apellido">
+                <p class="confirmacion__error" id="errornombre" hidden>Escribí tu nombre y apellido</p>
+                <label class="confirmacion__etiqueta" for="customMessage">Mensaje:</label>
+                <textarea class="confirmacion__mensaje" id="customMessage" placeholder="Mensaje opcional "></textarea>
+            </div>
+            <div class="confirmacion__botones">
+                <button class="boton__cta confirmacion__enviar" id="botoncito1" type="button">
+                    <svg class="boton__icono" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.31 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35M12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.42-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.18-1.24-6.16-3.47-8.41">
+                        </path>
+                    </svg>
+                    Confirmar Presencia
+                </button>
+                <button style="display: none;" class="boton__cta confirmacion__enviar" id="botoncito2" type="button">
+                    <svg class="boton__icono" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.31 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35M12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88a9.83 9.83 0 0 1 9.88 9.89c0 5.45-4.44 9.88-9.89 9.88m8.42-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.18-1.24-6.16-3.47-8.41">
+                        </path>
+                    </svg>
+                    Confirmar
+                </button>
+            </div>
+        </section>
+
+
+        <section class="frase">
+            <h5 class="frase__paragraph"> "La cuenta regresiva ha comenzado… <br> ¡Nos vemos en mi gran día !"
+            </h5>
+        </section>
+
+
+    </main>
+
+    <footer class="footer__final1">
+        <div class="footer__inner1">
+            <div class="footer__brand1">
+                <p class="footer__text1">
+                    Página creada por <strong>Luno Digitales</strong>
+                    para los 15 años de <strong>Jazmin </strong>.<br>
+                    Todos los derechos reservados. <br>Visítanos en:
+                </p>
+
+            </div>
+
+
+            <a class="footer__site1" href="https://www.luno.net.ar" target="_blank" rel="noopener">www.luno.net.ar</a>
+            <div class="footer__social3">
+                <p class="footer__follow1">Síguenos en nuestras redes</p>
+                <a class="icon-link1"
+                    href="https://www.instagram.com/lunodigitales?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    aria-label="Instagram de Luno Digitales">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"
+                            fill="none" />
+                        <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5" fill="none" />
+                        <circle cx="18.2" cy="5.8" r="0.7" fill="currentColor" />
+                    </svg>
+                </a>
+                <a class="icon-link1" href="https://www.facebook.com/profile.php?id=61581720891655" target="_blank"
+                    rel="noopener" aria-label="Facebook de Luno Digitales">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <style>
+        /* ///////////////// footer /////////////////////// */
+
+
+        .footer__final1 {
+            background: linear-gradient(180deg, #607119 0%, #afa23c 100%);
+            color: #ffffff;
+            padding: 1.5em 0;
+
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            font-size: 14px;
+            width: clamp(100px, 100%, 1800px);
+            text-align: center;
+            margin: 7em auto 0;
+        }
+
+        .footer__inner1 {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            align-items: center;
+            text-align: center;
+            padding: 0 1em;
+        }
+
+        .footer__text1 {
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .footer__text1 strong {
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .footer__site1 {
+            display: inline-block;
+            margin-top: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .footer__site1:hover {
+            text-decoration: underline;
+        }
+
+        .footer__social3 {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 5px;
+        }
+
+        .footer__follow1 {
+            margin: 0;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        .footer__final1 .icon-link1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .footer__final1 .icon-link1 svg {
+            width: 28px !important;
+            height: 28px !important;
+            display: block;
+            margin: 0;
+        }
+
+        .footer__final1 .icon-link1:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+    <script src="js/script.js?v7"></script>
+
+</body>
+
+</html>
